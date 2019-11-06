@@ -1,5 +1,4 @@
 === Login IP & Country Restriction ===
-Contributors: Iulia Cazan
 Tags: login restriction, security, authenticate, ip, country code, login filter, login, restrict, allow IP, allow country code, auth, security redirect
 Requires at least: not tested
 Tested up to: 5.2.2
