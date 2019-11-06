@@ -1,0 +1,217 @@
+# Copyright (C) 2019 Login IP & Country Restriction
+# This file is distributed under the same license as the Login IP & Country Restriction package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Login IP & Country Restriction 3.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/login-ip-country-"
+"restriction\n"
+"POT-Creation-Date: 2019-03-16 11:21+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: login-restrict-country.php:343 login-restrict-country.php:344
+#: login-restrict-country.php:518
+msgid "Login IP & Country Restriction Settings"
+msgstr ""
+
+#: login-restrict-country.php:386 login-restrict-country.php:502
+msgid "Action not allowed."
+msgstr ""
+
+#: login-restrict-country.php:386
+msgid "Security Breach"
+msgstr ""
+
+#: login-restrict-country.php:472
+msgid "The settings were updated."
+msgstr ""
+
+#: login-restrict-country.php:525
+msgid "Based on the current options there is no login restriction."
+msgstr ""
+
+#. Translators: %1$s - list of IPs.
+#: login-restrict-country.php:529
+msgid ""
+"Based on the current options there is a login restriction, only these IPs "
+"are allowed for login: %1$s."
+msgstr ""
+
+#. Translators: %1$s - list of country names.
+#: login-restrict-country.php:535
+msgid ""
+"Based on the current options there is a login restriction, this is allowed "
+"only from these countries: %1$s."
+msgstr ""
+
+#: login-restrict-country.php:544
+msgid ""
+"The restriction will apply to your user as well! Please make sure you change "
+"the restiction to allow your own access."
+msgstr ""
+
+#. Translators: %1$s - IP, %2$s - country code.
+#: login-restrict-country.php:551
+msgid "Your current IP is %1$s and the country code is %2$s."
+msgstr ""
+
+#: login-restrict-country.php:562
+msgid "IP Restriction"
+msgstr ""
+
+#: login-restrict-country.php:563
+msgid "Country Restriction"
+msgstr ""
+
+#: login-restrict-country.php:564
+msgid "Redirects"
+msgstr ""
+
+#: login-restrict-country.php:585
+msgid "No IP restriction"
+msgstr ""
+
+#: login-restrict-country.php:592
+msgid "Allow only specific IPs"
+msgstr ""
+
+#: login-restrict-country.php:602
+msgid ""
+"* means any IP, you must remove it from the list if you want to apply a "
+"restriction."
+msgstr ""
+
+#: login-restrict-country.php:603
+msgid "Separate the IPs with comma if there are more."
+msgstr ""
+
+#: login-restrict-country.php:622
+msgid "No country restriction"
+msgstr ""
+
+#: login-restrict-country.php:629
+msgid "Allow only the selected countries"
+msgstr ""
+
+#: login-restrict-country.php:638
+msgid "Allowed countries"
+msgstr ""
+
+#: login-restrict-country.php:640
+msgid ""
+"This is the list of countries you selected. You can uncheck any and save "
+"again your options."
+msgstr ""
+
+#: login-restrict-country.php:658
+msgid "you did not select any country yet"
+msgstr ""
+
+#: login-restrict-country.php:664
+msgid "Countries list"
+msgstr ""
+
+#: login-restrict-country.php:666
+msgid "Select only the countries you wish to allow access from."
+msgstr ""
+
+#: login-restrict-country.php:716
+msgid "No redirects"
+msgstr ""
+
+#: login-restrict-country.php:723
+msgid ""
+"Yes, use redirects to frontpage when the URLs are accessed by someone that "
+"has a restriction."
+msgstr ""
+
+#: login-restrict-country.php:731
+msgid ""
+"Please note that the restriction to the pages configured below is either by "
+"country, or not in the specified IPs list."
+msgstr ""
+
+#: login-restrict-country.php:732
+msgid "Login & Registration native pages"
+msgstr ""
+
+#. Translators: %1$s - url, %2$s - new url.
+#: login-restrict-country.php:742
+msgid "Redirect login from %1$s to %2$s."
+msgstr ""
+
+#. Translators: %1$s - url, %2$s - new url.
+#: login-restrict-country.php:756
+msgid "Redirect registration from %1$s to %2$s."
+msgstr ""
+
+#: login-restrict-country.php:766
+msgid "The following specified URLs"
+msgstr ""
+
+#: login-restrict-country.php:770
+msgid "(separate the URLs with comma)"
+msgstr ""
+
+#: login-restrict-country.php:781
+msgid ""
+"The best thing about giving of ourselves is that what we get is always "
+"better than what we give."
+msgstr ""
+
+#: login-restrict-country.php:1229
+msgid "Forbidden!"
+msgstr ""
+
+#: login-restrict-country.php:1245
+msgid "Settings"
+msgstr ""
+
+#. Translators: %1$s image URL, %2$s icon URL, %3$s donate URL, %4$s link style, %5$s icon style, %6$s rating.
+#: login-restrict-country.php:1245
+msgid "<a href="%3$s" target="_blank"%4$s><img src="%1$s"></a><a href="%7$s" title="%8$s"><img src="%2$s"%5$s></a> <h3>Thank you for activating the plugin Login IP & Country Restriction!</h3>If you find the plugin useful and would like to support my work, please consider making a <a href="%3$s" target="_blank">donation</a>. It would make me very happy if you would leave a %6$s rating."
+msgstr ""
+
+#: login-restrict-country.php:1245
+msgid "A huge thanks in advance!"
+msgstr ""
+
+#: login-restrict-country.php:1246
+msgid "Plugin URL"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Login IP & Country Restriction"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://iuliacazan.ro/login-ip-country-restriction/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin hooks in the authenticate filter. By default, the plugin is set "
+"to allow all access and you can configure the plugin to allow the login only "
+"from some specified IPs or the specified countries. PLEASE MAKE SURE THAT "
+"YOU CONFIGURE THE PLUGIN TO ALLOW YOUR OWN ACCESS. If you set a restriction "
+"by IP, then you have to add your own IP (if you are using the plugin in a "
+"local setup the IP is 127.0.0.1 or ::1, this is added in your list by "
+"default). If you set a restriction by country, then you have to select from "
+"the list of countries at least your country. The both types of restrictions "
+"work independent, so you can set only one type of restriction or both if you "
+"want."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Iulia Cazan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/iulia-cazan"
+msgstr ""
