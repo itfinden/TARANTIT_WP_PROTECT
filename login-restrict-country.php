@@ -29,14 +29,21 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
+namespace TarantIT;
+
+use \TarantIT\Tarantit_Functions as TFunctions;
+
 // Define the plugin version.
 define('SISANU_RCIL_DB_OPTION', 'sisanu_rcil');
 define('SISANU_RCIL_CURRENT_DB_VERSION', 3.6);
 
+
+use	\TarantIT\Tarantit_Core as TCore;
+
 /**
  * Class for Login IP & Country Restriction.
  */
-class SISANU_Restrict_Country_IP_Login extends TIT_functions {
+class SISANU_Restrict_Country_IP_Login extends Tarantit_Functions {
 
 	const PLUGIN_NAME = 'Login IP & Country Restriction';
 	const PLUGIN_SUPPORT_URL = 'https://wordpress.org/support/plugin/login-ip-country-restriction/';
