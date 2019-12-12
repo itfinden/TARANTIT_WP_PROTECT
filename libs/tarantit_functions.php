@@ -4,7 +4,7 @@ namespace TarantIT;
 /**
  *
  */
-class TIT_functions {
+class Tarantit_Functions {
 
 	/**
 	 * Remove the transients set when verifying the restrictions.

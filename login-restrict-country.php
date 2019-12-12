@@ -31,6 +31,9 @@
 
 namespace TarantIT;
 
+use \TarantIT\Tarantit_Core as TCore;
+use \TarantIT\Tarantit_Functions as TFunctions;
+
 // Define the plugin version.
 define('SISANU_RCIL_DB_OPTION', 'sisanu_rcil');
 define('SISANU_RCIL_CURRENT_DB_VERSION', 3.6);
@@ -38,7 +41,7 @@ define('SISANU_RCIL_CURRENT_DB_VERSION', 3.6);
 /**
  * Class for Login IP & Country Restriction.
  */
-class SISANU_Restrict_Country_IP_Login extends Tarantit_Functions {
+class SISANU_Restrict_Country_IP_Login extends TFunctions {
 
 	const PLUGIN_NAME = 'Login IP & Country Restriction';
 	const PLUGIN_SUPPORT_URL = 'https://wordpress.org/support/plugin/login-ip-country-restriction/';
@@ -117,6 +120,12 @@ class SISANU_Restrict_Country_IP_Login extends Tarantit_Functions {
 	 *
 	 * @return object
 	 */
+
+	public static function get_info() {
+
+		TCore::get_version();
+	}
+
 	public static function get_instance() {
 
 		if (!self::$instance) {

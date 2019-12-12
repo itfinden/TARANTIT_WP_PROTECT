@@ -1,7 +1,9 @@
 <?php
 
+namespace TarantIT;
+
 class Tarantit_Core {
-	public function get_version() {
+	public static function get_version() {
 		echo "version 1";
 
 	}
