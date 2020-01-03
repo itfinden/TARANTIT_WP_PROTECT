@@ -1,19 +1,19 @@
 <?php
 /**
  * Plugin Name: Login IP & Country Restriction
- * Plugin URI: https://iuliacazan.ro/login-ip-country-restriction/
+ * Plugin URI: https://tarantit.com/login-ip-country-restriction/
  * Description: This plugin hooks in the authenticate filter. By default, the plugin is set to allow all access and you can configure the plugin to allow the login only from some specified IPs or the specified countries. PLEASE MAKE SURE THAT YOU CONFIGURE THE PLUGIN TO ALLOW YOUR OWN ACCESS. If you set a restriction by IP, then you have to add your own IP (if you are using the plugin in a local setup the IP is 127.0.0.1 or ::1, this is added in your list by default). If you set a restriction by country, then you have to select from the list of countries at least your country. The both types of restrictions work independent, so you can set only one type of restriction or both if you want.
  * Text Domain: sislrc
  * Domain Path: /langs
  * Version: 3.6
  * Author: Iulia Cazan
- * Author URI: https://profiles.wordpress.org/iulia-cazan
+ * Author URI: https://profiles.wordpress.org/tarantit
  * Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JJA37EHZXWUTJ
  * License: GPL2
  *
  * @package sislrc
  *
- * Copyright (C) 2014-2019 Iulia Cazan
+ * Copyright (C) 2019-2020 TARANTIT
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
@@ -1202,7 +1202,7 @@ echo wp_kses_post(sprintf(
 	public static function plugin_action_links($links) {
 		$all = array();
 		$all[] = '<a href="' . esc_url(self::$plugin_url) . '">' . esc_html__('Settings', 'sislrc') . '</a>';
-		$all[] = '<a href="https://iuliacazan.ro/login-ip-country-restriction">' . esc_html__('Plugin URL', 'sislrc') . '</a>';
+		$all[] = '<a href="https://www.tarantit.com/login-ip-country-restriction">' . esc_html__('Plugin URL', 'sislrc') . '</a>';
 		$all = array_merge($all, $links);
 		return $all;
 	}
